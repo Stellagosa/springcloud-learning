@@ -1,0 +1,20 @@
+server:
+  port: 9303
+spring:
+  application:
+    name: admin-security-server
+  security:
+    user:
+      name: ellaend
+      password: 123456
+  boot:
+    admin:
+      discovery:
+        ignored-services: ${spring.application.name}
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+

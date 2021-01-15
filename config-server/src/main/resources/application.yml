@@ -1,0 +1,17 @@
+server:
+  port: 8901
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Stellagosa/springCloudConfig.git
+          username: Stellagosa
+          password: 131405zhai
+          clone-on-start: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/

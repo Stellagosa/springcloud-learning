@@ -1,0 +1,17 @@
+server:
+  port: 8905
+spring:
+  application:
+    name: config-security-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Stellagosa/springCloudConfig.git
+          username: Stellagosa
+          password: 131405zhai
+          clone-on-start: true
+  security:
+    user:
+      name: ellaend
+      password: 123456

@@ -1,0 +1,63 @@
+2021-01-14 16:37:30.051  INFO 3488 --- [main] c.ellaend.cloud.AdminClientApplication   : Starting AdminClientApplication on DESKTOP-2POB45I with PID 3488 (F:\Documents\Repositories\springcloud-learning\admin-client\target\classes started by Ellaend in F:\Documents\Repositories\springcloud-learning)
+2021-01-14 16:37:30.066  INFO 3488 --- [main] c.ellaend.cloud.AdminClientApplication   : No active profile set, falling back to default profiles: default
+2021-01-14 16:37:32.597  INFO 3488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9305 (http)
+2021-01-14 16:37:32.613  INFO 3488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-14 16:37:32.613  INFO 3488 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-14 16:37:32.707  INFO 3488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-14 16:37:32.707  INFO 3488 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2516 ms
+2021-01-14 16:37:33.004  INFO 3488 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-14 16:37:34.035  INFO 3488 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-01-14 16:37:34.097  INFO 3488 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-01-14 16:37:34.176  INFO 3488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9305 (http) with context path ''
+2021-01-14 16:37:34.191  INFO 3488 --- [main] c.ellaend.cloud.AdminClientApplication   : Started AdminClientApplication in 5.087 seconds (JVM running for 6.558)
+2021-01-14 16:37:34.879  INFO 3488 --- [RMI TCP Connection(2)-172.26.144.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-14 16:37:34.879  INFO 3488 --- [RMI TCP Connection(2)-172.26.144.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-14 16:37:34.894  INFO 3488 --- [RMI TCP Connection(2)-172.26.144.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2021-01-14 16:37:35.410  INFO 3488 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as da4d84086a7d
+2021-01-14 17:04:40.853  INFO 2928 --- [main] c.ellaend.cloud.AdminClientApplication   : The following profiles are active: eureka
+2021-01-14 17:04:41.743  WARN 2928 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-01-14 17:04:41.868  INFO 2928 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=49b98787-6070-30f1-8afd-7b7d317dcb24
+2021-01-14 17:04:42.243  INFO 2928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9306 (http)
+2021-01-14 17:04:42.243  INFO 2928 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-14 17:04:42.243  INFO 2928 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-14 17:04:42.400  INFO 2928 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-14 17:04:42.400  INFO 2928 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1532 ms
+2021-01-14 17:04:42.493  WARN 2928 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-01-14 17:04:42.493  INFO 2928 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 17:04:42.509  INFO 2928 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5b1e88f
+2021-01-14 17:04:42.618  WARN 2928 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-01-14 17:04:42.618  INFO 2928 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 17:04:42.806  INFO 2928 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-14 17:04:43.900  INFO 2928 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-01-14 17:04:44.275  INFO 2928 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2021-01-14 17:04:44.306  WARN 2928 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-14 17:04:44.337  INFO 2928 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2021-01-14 17:04:44.446  INFO 2928 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-01-14 17:04:44.478  INFO 2928 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-01-14 17:04:44.525  INFO 2928 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-01-14 17:04:44.525  INFO 2928 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-01-14 17:04:44.681  INFO 2928 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-01-14 17:04:44.681  INFO 2928 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-01-14 17:04:44.837  INFO 2928 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-01-14 17:04:45.040  INFO 2928 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-01-14 17:04:45.040  INFO 2928 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-01-14 17:04:45.040  INFO 2928 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-01-14 17:04:45.040  INFO 2928 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-01-14 17:04:45.040  INFO 2928 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-01-14 17:04:45.040  INFO 2928 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-01-14 17:04:45.040  INFO 2928 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-01-14 17:04:45.196  INFO 2928 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-01-14 17:04:45.196  INFO 2928 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-01-14 17:04:45.212  INFO 2928 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-14 17:04:45.212  INFO 2928 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1610615085212 with initial instances count: 1
+2021-01-14 17:04:45.212  INFO 2928 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-CLIENT with eureka with status UP
+2021-01-14 17:04:45.212  INFO 2928 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1610615085212, current=UP, previous=STARTING]
+2021-01-14 17:04:45.212  INFO 2928 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-CLIENT/DESKTOP-2POB45I:admin-client:9306: registering service...
+2021-01-14 17:04:45.259  INFO 2928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9306 (http) with context path ''
+2021-01-14 17:04:45.259  INFO 2928 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9306
+2021-01-14 17:04:45.275  INFO 2928 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-CLIENT/DESKTOP-2POB45I:admin-client:9306 - registration status: 204
+2021-01-14 17:04:45.587  INFO 2928 --- [main] c.ellaend.cloud.AdminClientApplication   : Started AdminClientApplication in 8.219 seconds (JVM running for 9.922)
+2021-01-14 17:04:46.571  INFO 2928 --- [RMI TCP Connection(2)-172.26.144.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-14 17:04:46.571  INFO 2928 --- [RMI TCP Connection(2)-172.26.144.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-14 17:04:46.571  INFO 2928 --- [RMI TCP Connection(2)-172.26.144.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-01-14 17:04:49.759  WARN 2928 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=admin-client, managementUrl=http://DESKTOP-2POB45I.mshome.net:9306/actuator, healthUrl=http://DESKTOP-2POB45I.mshome.net:9306/actuator/health, serviceUrl=http://DESKTOP-2POB45I.mshome.net:9306/) at spring-boot-admin ([http://localhost:9301/instances]): I/O error on POST request for "http://localhost:9301/instances": Connect to localhost:9301 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:9301 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect. Further attempts are logged on DEBUG level
