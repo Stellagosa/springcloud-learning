@@ -1,0 +1,13 @@
+service-url:
+  nacos-provider: http://nacos-provider
+server:
+  port: 1011
+  servlet:
+    context-path: /
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+debug: true

@@ -1,0 +1,12 @@
+server:
+  port: 1001
+  servlet:
+    context-path: /
+spring:
+  application:
+    name: nacos-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+debug: true
