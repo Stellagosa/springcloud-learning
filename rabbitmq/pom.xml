@@ -13,6 +13,7 @@
         <module>work_queues</module>
         <module>publish_subscribe</module>
         <module>routing</module>
+        <module>topics</module>
     </modules>
 
     <properties>

@@ -1,21 +1,4 @@
 # Project exclude paths
-/admin-client/target/
-/admin-security-server/target/
-/admin-server/target/
-/api-gateway/target/
-/config-client/target/
-/config-security-server/target/
-/config-server/target/
-/consul-config-client/target/
-/consul-ribbon-service/target/
-/consul-user-service/target/
-/eureka-client/target/
-/eureka-security-server/target/
-/eureka-server/target/
-/feign-service/target/
-/hystrix-dashboard/target/
-/hystrix-service/target/
-/ribbon-service/target/
-/turbine-service/target/
-/user-service/target/
-/zuul-proxy/target/
+*/target/
+.idea
+*.iml

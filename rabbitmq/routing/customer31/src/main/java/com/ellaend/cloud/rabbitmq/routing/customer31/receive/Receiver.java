@@ -1,4 +1,4 @@
-package com.ellaend.cloud.rabbitmq.routing.customer32.receive;
+package com.ellaend.cloud.rabbitmq.routing.customer31.receive;
 
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
@@ -9,9 +9,10 @@ import java.nio.charset.StandardCharsets;
 @Component
 public class Receiver {
 
-    @RabbitListener(queues = "queue_inform_sms")
-    public void receiveSms(Message message) {
+    @RabbitListener(queues = "queue_inform_email")
+    public void receiveEmail(Message message) {
         String str = new String(message.getBody(), StandardCharsets.UTF_8);
         System.out.println(str);
     }
+
 }
