@@ -1,4 +1,4 @@
-package com.ellaend.cloud.rabbitmq.routing.customer31.receive;
+package com.ellaend.cloud.rabbitmq.publish_subscribe.customer21.receive;
 
 import com.rabbitmq.client.Channel;
 import org.springframework.amqp.core.Message;

@@ -1,4 +1,4 @@
-package com.ellaend.cloud.rabbitmq.routing.config;
+package com.ellaend.cloud.rabbitmq.publish_subscribe.config;
 
 import org.springframework.amqp.core.*;
 import org.springframework.beans.factory.annotation.Qualifier;

@@ -1,4 +1,4 @@
-package com.ellaend.cloud.rabbitmq.routing.product;
+package com.ellaend.cloud.rabbitmq.publish_subscribe.product;
 
 import com.ellaend.cloud.rabbitmq.routing.config.RabbitmqConfig;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
